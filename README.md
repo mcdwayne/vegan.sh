@@ -12,10 +12,10 @@ Installation instructions for MAC
       $ ./vegan_installer
 
 Usage: 
-$ vegan [github address] [<single composer commands>]
+$ vegan [github address] [single composer commands]
 
 Given command: 
-vegan git@github.com:CalderaWP/Caldera-Forms.git [<single composer command>]
+vegan git@github.com:CalderaWP/Caldera-Forms.git [single composer command]
 
 It should:
 
