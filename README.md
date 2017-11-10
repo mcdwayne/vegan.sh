@@ -5,12 +5,10 @@
 Version 1.0
 
 Installation instructions for MAC
-1. git clone https://github.com/mcdwayne/vegan.sh/
-2. on MAC either double click vegan_installer 
-  or
-  2b. cd to downloaded folder 
+1. $ git clone https://github.com/mcdwayne/vegan.sh/
+2. $ cd to downloaded folder 
       $ ./vegan_installer
-
+3. $ vegan
 
 
 
