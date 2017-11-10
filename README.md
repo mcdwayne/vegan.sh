@@ -36,6 +36,6 @@ composer install - gives an option to add a command argument
 npm install - gives an option to add a command argument
 
 
-if you give it an address like this "https://gitlab.com/dwayne/vegan" it still works
+if you give it an address like this "https://gitlab.com/dwayne/vegan.sh" it still works
 
 
