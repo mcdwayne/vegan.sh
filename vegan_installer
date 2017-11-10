@@ -16,3 +16,4 @@ else
 	source ~/.bash_profile
 fi
 
+exit
