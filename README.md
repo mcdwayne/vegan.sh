@@ -1,6 +1,6 @@
-#vegan.sh
+# vegan.sh
 
-#####Because the food is better
+##### Because the food is better
 
 Version 1.0
 
