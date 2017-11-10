@@ -11,8 +11,11 @@ Installation instructions for MAC
   2b. cd to downloaded folder 
       $ ./vegan_installer
 
+
+
+
 Usage: 
-$ vegan [github address] [single composer commands]
+$ vegan [github address] [single composer command]
 
 Given command: 
 vegan git@github.com:CalderaWP/Caldera-Forms.git [single composer command]
