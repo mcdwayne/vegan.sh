@@ -47,8 +47,6 @@ cd $foldername
       exit  
     else
         echo "Node has already been installed."
-        sleep 2
-        updateNode
     fi
 
 #Check to see of Composer is installed 
@@ -78,7 +76,7 @@ echo "Found" ${foldername} "/package.json"
 #  composer install with optional arguments
 
 if [ -z "$2" ]; then
-	echo -n "Want to add an argument for composer? (Enter ONLY one) " && read COMPOSERARG
+	echo -n "Want to add an argument for composer? (Enter ONLY one or leave blank or wait) " && read -t 5 COMPOSERARG
 		if [ -z "$COMPOSERARG" ]; then
 		composer install
 		else
@@ -92,7 +90,7 @@ fi
 
 # npm install
 
-echo -n "Want to add an argument for npm? (Enter ONLY one) " && read NPMARG
+echo -n "Want to add an argument for npm? (Enter ONLY one or leave blank or wait) " && read -t NPMARG
         if [ -z "$NPMARG" ]; then
         npm install
         else
