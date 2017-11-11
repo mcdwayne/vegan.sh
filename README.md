@@ -1,9 +1,25 @@
-vegan.sh
+# vegan.sh
+
+##### Because the food is better
+
+Version 1.0
+
+Installation instructions for MAC
+```
+git clone https://github.com/mcdwayne/vegan.sh/ vegan
+cd vegan
+./vegan_installer
+vegan
+```
+
+
+Usage: 
+$ vegan [github address] [single composer command]
 
 Given command: 
-vegan git@github.com:CalderaWP/Caldera-Forms.git [<single composer command>]
+vegan git@github.com:CalderaWP/Caldera-Forms.git [single composer command]
 
-It should do
+It should:
 
 git clone git@github.com:CalderaWP/Caldera-Forms.git
 
@@ -19,9 +35,9 @@ Check if composer is installed globally before using composer cli
 
 composer install - gives an option to add a command argument
 
-npm install
+npm install - gives an option to add a command argument
 
 
-if you give it an address like this "https://gitlab.com/dwayne/vegan" it still works
+if you give it an address like this "https://gitlab.com/dwayne/vegan.sh" it still works
 
 
