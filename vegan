@@ -35,7 +35,14 @@ filename=$(basename "$GITADDRESS")
 foldername="${filename%.*}"
 
 # do the git clone thing
-git clone $GITADDRESS $foldername 
+
+if [ ! -d ${foldername} ]; then
+    git clone $GITADDRESS $foldername 
+  else 
+     echo "This was already installed!  Also vegan food is just better." 
+     exit
+fi
+
 
 # note: this will not change your terminal PWD, just the internal shell PWD for the rest of this script run
 cd $foldername
